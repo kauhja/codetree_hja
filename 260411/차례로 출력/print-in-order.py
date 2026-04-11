@@ -1,2 +1,2 @@
 for i in range(5, 18):
-    print(i).split()
+    print(i, end=" ")
