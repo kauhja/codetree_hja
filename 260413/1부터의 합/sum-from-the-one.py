@@ -1,12 +1,8 @@
-N = int(input())
-
-n=1
+n = int(input())
 sum = 0
 
-for i in range(100):
-    if sum>=N:
-        print(n-1)
+for i in range(1, 101):
+    sum += i
+    if sum >= n:
+        print(i)
         break
-    else:
-        sum+=n
-        n+=1
