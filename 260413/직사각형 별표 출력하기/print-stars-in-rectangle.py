@@ -1,10 +1,8 @@
-N = int(input("N: "))
-M = int(input("M: "))
+N, M = input().split(' ')
+N = int(N)
+M = int(M)
 
-while N == 0:
-    while M == 1:
-        print('*', end="")
-        M-=1
-    print("\n")
-
-    N-=1
+for i in range(N):
+    for j in range(M):
+        print("*", end=" ")
+    print()
